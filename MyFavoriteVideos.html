@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Favorite Videos</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin: 1;
+            padding: 1;
+        }
+        .container {
+            border: 0px solid rgb(0, 0, 0);
+            width: 300px;
+            margin: 50px auto;
+            padding: 50px;
+        }
+        a {
+            display: block;
+            font-size: 25px;
+            color: purple;
+            text-decoration: none;
+            margin-bottom: 15px;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 3fr);
+            gap: 10px;
+            justify-content: center;
+            margin-top: 10px;
+            margin-inline: 1px;
+        }
+        .image-grid img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border: 3px solid black;
+        }
+        .row2 {
+            grid-column: span 3;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+    .youtube-container {
+      margin: 0 auto;
+    }
+  </style>
+
+</head>
+<body>
+
+<div class="container">
+  <a href="Menu.html">Go to Menu</a>
+  <div class="youtube-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lFsg_sDwlak?si=0QTjK57SdLPz5dsG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <div class="youtube-container">  
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ArJTPKcdaQI?si=qKCV2YU9-QWXyjmL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <div class="youtube-container">  
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/PE2YZhcC4NY?si=a8QVpilR2AO6RVDX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</div>
+
+</body>
+</html>

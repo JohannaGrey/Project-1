@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Info</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin: 1;
+            padding: 1;
+        }
+        .container {
+            border: 0px solid rgb(0, 0, 0);
+            width: 300px;
+            margin: 50px auto;
+            padding: 50px;
+        }
+        a {
+            display: block;
+            font-size: 25px;
+            color: purple;
+            text-decoration: none;
+            margin-bottom: 15px;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 3fr);
+            gap: 10px;
+            justify-content: center;
+            margin-top: 10px;
+            margin-inline: 1px;
+        }
+        .image-grid img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border: 3px solid black;
+        }
+        .row2 {
+            grid-column: span 3;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="container">
+    <a href="Menu.html">Go to Menu</a>
+        <div class="image-grid">
+            <img src="https://www.thesprucepets.com/thmb/3XGCB2YD8jjU5fYVbla-_8r58dI=/2048x0/filters:no_upscale():strip_icc()/Flckr3-c05e5532654e4165ac7c5505700b2ec2.jpg">
+            <img src="https://i.ytimg.com/vi/89o9HXC9uTw/maxresdefault.jpg">
+            <img src="https://thecozycook.com/wp-content/uploads/2022/04/Lasagna-Recipe-f.jpg">
+            <div class="row2">
+            <img src="https://www.gamespot.com/a/uploads/original/1816/18166775/4214150-best-furina-build-team-artifacts-weapon-1.jpg">
+            <img src="https://img.uhdpaper.com/wallpaper/neuvillette-genshin-impact-art-genshin-impact-245@1@m">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
